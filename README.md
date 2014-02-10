@@ -4,7 +4,7 @@
 
 This is a **very easy** and **fast-paced** card game that can be played by **2 players or more**.
 
-It is suitable for **all ages** (assuming the players can count to 6), and does not take more than **10 minutes** for a single game.
+It is suitable for **ages 7+**, and usually does not take more than **10 minutes** for a single game.
 
 ## License
 
