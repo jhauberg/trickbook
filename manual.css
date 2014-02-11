@@ -1,0 +1,89 @@
+body {
+	padding-left: 72px;
+	padding-top: 60px;
+}
+
+.card {
+	border: 1px solid #949494;
+	border-radius: 12px;
+	margin: 8px;
+	width: 100px;
+	height: 140px;
+
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+#tricks {
+	overflow: hidden;
+}
+
+#specials {
+	/*overflow: hidden;*/
+}
+
+#tricks .card {
+	float: left;
+}
+
+#specials .card {
+	float: left;	
+}
+
+.card-inner-frame {
+	border: 1px solid #949494;
+	border-radius: 8px;
+	width: 85%;
+	height: 64%;
+	margin: auto;
+	margin-top: 6%;
+}
+
+.card-value {
+	position: relative;
+	top: -16px;
+	left: -2px;
+	text-align: center;
+	font-family: 'Shadows Into Light';
+	font-size: 2.1em;
+}
+
+.card-name {
+	position: relative;
+	font-family: 'Annie Use Your Telescope', cursive;
+	margin-top: 10px;
+	margin-left: 8px;
+	font-size: 1.2em;
+	font-weight: normal;
+	text-align: left;
+}
+
+.card-inner-frame-title-block {
+	width: 40%;
+	height: 2px;
+	position: relative;
+	top: -2px;
+	margin: auto;
+	background-color: white;
+}
+
+.card-requirement {
+	float: left;
+	margin-bottom: 24px;
+}
+
+.card-requirement-amount {
+	top: 12px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: lighter;
+	font-size: 1.3em;
+	top: 12px;
+	position: relative;
+	margin-bottom: 16px;
+	text-align: center;
+	color: #505050;
+}
