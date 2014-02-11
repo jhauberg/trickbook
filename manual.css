@@ -1,13 +1,9 @@
-body {
-	padding-left: 50px;
-	padding-top: 40px;
-}
-
 #manual {
 	position: relative;
 	overflow: hidden;
 	margin: 0 auto;
 	width: 1024px;
+	padding-top: 60px;
 }
 
 #requirements {
