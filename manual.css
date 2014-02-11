@@ -1,12 +1,13 @@
 body {
-	padding-left: 72px;
-	padding-top: 60px;
+	padding-left: 60px;
+	padding-top: 50px;
 }
 
 .card {
+	position: relative;
 	border: 1px solid #949494;
 	border-radius: 12px;
-	margin: 8px;
+	margin: 12px;
 	width: 100px;
 	height: 140px;
 
@@ -43,6 +44,15 @@ body {
 	margin-top: 6%;
 }
 
+.card-inner-frame-title-block {
+	width: 40%;
+	height: 3px;
+	position: relative;
+	top: -2px;
+	margin: auto;
+	background-color: white;
+}
+
 .card-value {
 	position: relative;
 	top: -16px;
@@ -60,15 +70,6 @@ body {
 	font-size: 1.2em;
 	font-weight: normal;
 	text-align: left;
-}
-
-.card-inner-frame-title-block {
-	width: 40%;
-	height: 2px;
-	position: relative;
-	top: -2px;
-	margin: auto;
-	background-color: white;
 }
 
 .card-requirement {
