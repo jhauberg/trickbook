@@ -28,14 +28,14 @@ function translate(object, offset) {
 function fidget(element, range) {
     var variation = getRandomIntInRange(-range, range);
     var rotation = getRandomBoolean() ? variation : -variation;
-
+/*
     var offset = {
         x: variation / 2,
         y: variation
     };
-
+*/
     rotate(element, rotation);
-    translate(element, offset);
+    //translate(element, offset);
 }
 
 $('.card').each(function(index) {

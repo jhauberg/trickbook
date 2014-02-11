@@ -1,13 +1,13 @@
 body {
-	padding-left: 60px;
-	padding-top: 50px;
+	padding-left: 50px;
+	padding-top: 40px;
 }
 
 .card {
 	position: relative;
 	border: 1px solid #949494;
 	border-radius: 12px;
-	margin: 12px;
+	margin: 8px;
 	width: 100px;
 	height: 140px;
 
