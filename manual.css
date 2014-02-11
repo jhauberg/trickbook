@@ -3,6 +3,18 @@ body {
 	padding-top: 40px;
 }
 
+#manual {
+	position: relative;
+	overflow: hidden;
+	margin: 0 auto;
+	width: 1024px;
+}
+
+#requirements {
+	width: 81%;
+	margin: 0 auto;
+}
+
 .card {
 	position: relative;
 	border: 1px solid #949494;
