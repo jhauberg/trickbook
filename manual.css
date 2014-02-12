@@ -2,8 +2,42 @@
 	position: relative;
 	overflow: hidden;
 	margin: 0 auto;
+	padding-left: 24px;
+	padding-top: 16px;
 	width: 1024px;
-	padding-top: 48px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#logo-container {
+	width: 81%;
+	margin: 0 auto;
+	margin-bottom: 72px;
+}
+
+#logo {
+    background:url('images/trickbook.png') no-repeat top left;
+	width: 150px;
+	height: 47px;
+	opacity: 0.3;
+}
+
+#info {
+	position: relative;
+	left: -220px;
+	text-align: right;
+	margin-top: 72px;
+}
+
+#description {
+	font-family: 'Annie Use Your Telescope', cursive;
+	font-weight: lighter;
+	font-size: 2.2em;
+}
+
+#signature {
+	font-family: 'Annie Use Your Telescope', cursive;
+	font-size: 3.4em;
+	font-weight: normal;
 }
 
 #requirements {
@@ -11,17 +45,18 @@
 	margin: 0 auto;
 }
 
-#logo {
-	width: 81%;
-	margin: 0 auto;
-	margin-bottom: 62px;
+#tricks {
+	overflow: hidden;
+}
+
+#specials {
+	overflow: hidden;
 }
 
 .card {
 	position: relative;
 	border: 1px solid #949494;
 	border-radius: 12px;
-	margin: 8px;
 	width: 100px;
 	height: 140px;
 
@@ -33,20 +68,14 @@
 	user-select: none;
 }
 
-#tricks {
-	overflow: hidden;
-}
-
-#specials {
-	/*overflow: hidden;*/
-}
-
 #tricks .card {
 	float: left;
+	margin: 2px;
 }
 
 #specials .card {
 	float: left;	
+	margin: 2px;
 }
 
 .card-inner-frame {
@@ -88,17 +117,31 @@
 
 .card-requirement {
 	float: left;
-	margin-bottom: 24px;
+	margin-bottom: 20px;
 }
 
 .card-requirement-amount {
 	top: 12px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Open Sans Condensed', sans-serif;
 	font-weight: lighter;
-	font-size: 1.3em;
+	font-size: 1.5em;
 	top: 12px;
 	position: relative;
 	margin-bottom: 12px;
 	text-align: center;
-	color: #505050;
+	color: #ADADAD;
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+	#logo {
+		background:url('images/trickbook@2x.png') no-repeat top left;
+        background-size: 150px 47px;  
+        opacity: 0.1;
+	}
 }
