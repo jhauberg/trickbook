@@ -38,6 +38,47 @@ function fidget(element, range) {
     //translate(element, offset);
 }
 
-$('.card').each(function(index) {
-    fidget($(this), 2);
+function fidgetWithAllCards() {
+    $('.card').each(function(index) {
+        fidget($(this), 2);
+    });
+}
+
+function hideAllExplanations() {
+    $('.explanation').each(function(index) {
+      $(this).css('visibility', 'hidden');
+    });
+}
+
+fidgetWithAllCards();
+hideAllExplanations();
+
+$('#requirement-special-psyche').on('touchend mouseenter', function() { 
+    hideAllExplanations();
+
+    $('#explanation-psyche').css('visibility', 'visible');
+});
+
+$('#requirement-special-focus').on('touchend mouseenter', function() {
+    hideAllExplanations();
+
+    $('#explanation-focus').css('visibility', 'visible');
+});
+
+$('#requirement-special-steal').on('touchend mouseenter', function() {
+    hideAllExplanations();
+
+    $('#explanation-steal').css('visibility', 'visible');
+});
+
+$('#requirement-special-first').on('touchend mouseenter', function() {
+    hideAllExplanations();
+
+    $('#explanation-first').css('visibility', 'visible');
+});
+
+$('#requirement-special-onemore').on('touchend mouseenter', function() {
+    hideAllExplanations();
+
+    $('#explanation-onemore').css('visibility', 'visible');
 });
