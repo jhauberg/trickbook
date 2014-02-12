@@ -3,12 +3,18 @@
 	overflow: hidden;
 	margin: 0 auto;
 	width: 1024px;
-	padding-top: 60px;
+	padding-top: 48px;
 }
 
 #requirements {
 	width: 81%;
 	margin: 0 auto;
+}
+
+#logo {
+	width: 81%;
+	margin: 0 auto;
+	margin-bottom: 62px;
 }
 
 .card {
@@ -92,7 +98,7 @@
 	font-size: 1.3em;
 	top: 12px;
 	position: relative;
-	margin-bottom: 16px;
+	margin-bottom: 12px;
 	text-align: center;
 	color: #505050;
 }
