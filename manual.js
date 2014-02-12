@@ -46,7 +46,7 @@ function fidgetWithAllCards() {
 
 function hideAllExplanations() {
     $('.explanation').each(function(index) {
-      $(this).css('visibility', 'hidden');
+        $(this).css('visibility', 'hidden');
     });
 }
 
@@ -82,3 +82,5 @@ $('#requirement-special-onemore').on('touchend mouseenter', function() {
 
     $('#explanation-onemore').css('visibility', 'visible');
 });
+
+$('#explanation-first').css('visibility', 'visible');
