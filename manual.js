@@ -18,24 +18,11 @@ function rotate(object, degrees) {
     });
 }
 
-function translate(object, offset) {
-    object.css({
-        'margin-left': offset.x,
-        'margin-top': offset.y
-    });
-}
-
 function fidget(element, range) {
     var variation = getRandomIntInRange(-range, range);
     var rotation = getRandomBoolean() ? variation : -variation;
-/*
-    var offset = {
-        x: variation / 2,
-        y: variation
-    };
-*/
+
     rotate(element, rotation);
-    //translate(element, offset);
 }
 
 function fidgetWithAllCards() {
@@ -83,4 +70,34 @@ $('#requirement-special-onemore').on('touchend mouseenter', function() {
     $('#explanation-onemore').css('visibility', 'visible');
 });
 
+/*
+    Always show the first tip. 
+*/
 $('#explanation-first').css('visibility', 'visible');
+
+/*
+    Zooms in on a card. All other cards go back to normal.
+*/
+function zoomOnCard(card) {
+    $(card).attr('style', '');
+
+    $('#tricks .card').each(function(index) {
+        if ($(this)[0] != 
+            $(card)[0]) {
+            $(this).removeClass('zoom');
+            $(this).addClass('normal');
+        }
+    });
+
+    if ($(card).hasClass('normal')) {
+        $(card).removeClass('normal');
+    }
+
+    if (!$(card).hasClass('zoom')) {
+        $(card).addClass('zoom');
+    }
+}
+
+$("#tricks .card-requirement").on('touchend mouseenter', function() {
+    zoomOnCard($(this).children('.card'));
+});

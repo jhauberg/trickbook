@@ -23,9 +23,10 @@
 
 #info {
 	position: relative;
-	left: -220px;
+	float: left;
+	left: -200px;
+	top: 300px;
 	text-align: right;
-	margin-top: 100px;
 }
 
 #description {
@@ -46,15 +47,17 @@
 }
 
 #tricks {
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 
 #specials {
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
 
 .card {
 	position: relative;
+	background-color: white;
+	overflow: visible;
 	border: 1px solid #949494;
 	border-radius: 12px;
 	width: 100px;
@@ -77,6 +80,11 @@
 #specials .card {
 	float: left;	
 	margin: 2px;
+}
+
+#explanations {
+	position: relative;
+	top: 420px;
 }
 
 .card-inner-frame {
@@ -202,4 +210,144 @@ only screen and (                min-resolution: 2dppx) {
         background-size: 150px 47px;  
         opacity: 0.1;
 	}
+}
+
+#trick-ollie.zoom {
+    z-index: 1;
+  -webkit-transform: scale(2,2) rotate(-5deg);
+     -moz-transform: scale(2,2) rotate(-5deg);
+      -ms-transform: scale(2,2) rotate(-5deg);
+       -o-transform: scale(2,2) rotate(-5deg);
+          transform: scale(2,2) rotate(-5deg);
+    transition: 0.2s ease;
+}
+
+#trick-ollie.normal {
+    z-index: 0;
+  -webkit-transform: scale(1,1) rotate(2deg);
+     -moz-transform: scale(1,1) rotate(2deg);
+      -ms-transform: scale(1,1) rotate(2deg);
+       -o-transform: scale(1,1) rotate(2deg);
+          transform: scale(1,1) rotate(2deg);
+    transition: 0.1s ease;
+}
+
+#trick-shuvit.zoom {
+    z-index: 1;
+  -webkit-transform: scale(2,2) rotate(-3deg);
+     -moz-transform: scale(2,2) rotate(-3deg);
+      -ms-transform: scale(2,2) rotate(-3deg);
+       -o-transform: scale(2,2) rotate(-3deg);
+          transform: scale(2,2) rotate(-3deg);
+    transition: 0.2s ease;
+}
+
+#trick-shuvit.normal {
+    z-index: 0;
+  -webkit-transform: scale(1,1) rotate(-1deg);
+     -moz-transform: scale(1,1) rotate(-1deg);
+      -ms-transform: scale(1,1) rotate(-1deg);
+       -o-transform: scale(1,1) rotate(-1deg);
+          transform: scale(1,1) rotate(-1deg);
+    transition: 0.1s ease;
+}
+
+#trick-kickflip.zoom {
+    z-index: 1;
+  -webkit-transform: scale(2,2) rotate(5deg);
+     -moz-transform: scale(2,2) rotate(5deg);
+      -ms-transform: scale(2,2) rotate(5deg);
+       -o-transform: scale(2,2) rotate(5deg);
+          transform: scale(2,2) rotate(5deg);
+    transition: 0.2s ease;
+}
+
+#trick-kickflip.normal {
+    z-index: 0;
+  -webkit-transform: scale(1,1) rotate(-2deg);
+     -moz-transform: scale(1,1) rotate(-2deg);
+      -ms-transform: scale(1,1) rotate(-2deg);
+       -o-transform: scale(1,1) rotate(-2deg);
+          transform: scale(1,1) rotate(-2deg);
+    transition: 0.1s ease;
+}
+
+#trick-heelflip.zoom {
+    z-index: 1;
+  -webkit-transform: scale(2,2) rotate(5deg);
+     -moz-transform: scale(2,2) rotate(5deg);
+      -ms-transform: scale(2,2) rotate(5deg);
+       -o-transform: scale(2,2) rotate(5deg);
+          transform: scale(2,2) rotate(5deg);
+    transition: 0.2s ease;
+}
+
+#trick-heelflip.normal {
+    z-index: 0;
+  -webkit-transform: scale(1,1) rotate(2deg);
+     -moz-transform: scale(1,1) rotate(2deg);
+      -ms-transform: scale(1,1) rotate(2deg);
+       -o-transform: scale(1,1) rotate(2deg);
+          transform: scale(1,1) rotate(2deg);
+    transition: 0.1s ease;
+}
+
+#trick-impossible.zoom {
+    z-index: 1;
+  -webkit-transform: scale(2,2) rotate(1deg);
+     -moz-transform: scale(2,2) rotate(1deg);
+      -ms-transform: scale(2,2) rotate(1deg);
+       -o-transform: scale(2,2) rotate(1deg);
+          transform: scale(2,2) rotate(1deg);
+    transition: 0.2s ease;
+}
+
+#trick-impossible.normal {
+    z-index: 0;
+  -webkit-transform: scale(1,1) rotate(0deg);
+     -moz-transform: scale(1,1) rotate(0deg);
+      -ms-transform: scale(1,1) rotate(0deg);
+       -o-transform: scale(1,1) rotate(0deg);
+          transform: scale(1,1) rotate(0deg);
+    transition: 0.1s ease;
+}
+
+#trick-tre.zoom {
+    z-index: 1;
+  -webkit-transform: scale(2,2) rotate(5deg);
+     -moz-transform: scale(2,2) rotate(5deg);
+      -ms-transform: scale(2,2) rotate(5deg);
+       -o-transform: scale(2,2) rotate(5deg);
+          transform: scale(2,2) rotate(5deg);
+    transition: 0.2s ease;
+}
+
+#trick-tre.normal {
+    z-index: 0;
+  -webkit-transform: scale(1,1) rotate(2deg);
+     -moz-transform: scale(1,1) rotate(2deg);
+      -ms-transform: scale(1,1) rotate(2deg);
+       -o-transform: scale(1,1) rotate(2deg);
+          transform: scale(1,1) rotate(2deg);
+    transition: 0.1s ease;
+}
+
+#trick-hardflip.zoom {
+    z-index: 1;
+  -webkit-transform: scale(2,2) rotate(5deg);
+     -moz-transform: scale(2,2) rotate(5deg);
+      -ms-transform: scale(2,2) rotate(5deg);
+       -o-transform: scale(2,2) rotate(5deg);
+          transform: scale(2,2) rotate(5deg);
+    transition: 0.2s ease;
+}
+
+#trick-hardflip.normal {
+    z-index: 0;
+  -webkit-transform: scale(1,1) rotate(-1deg);
+     -moz-transform: scale(1,1) rotate(-1deg);
+      -ms-transform: scale(1,1) rotate(-1deg);
+       -o-transform: scale(1,1) rotate(-1deg);
+          transform: scale(1,1) rotate(-1deg);
+    transition: 0.1s ease;
 }
