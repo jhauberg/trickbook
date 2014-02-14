@@ -86,6 +86,10 @@ function zoomOnCard(card) {
             $(card)[0]) {
             $(this).removeClass('zoom');
             $(this).addClass('normal');
+            $(this).find('.card-value').css({
+                'font-size': '1.9em', 
+                'top': '-18px'
+            });
         }
     });
 
@@ -95,6 +99,10 @@ function zoomOnCard(card) {
 
     if (!$(card).hasClass('zoom')) {
         $(card).addClass('zoom');
+        $(card).find('.card-value').css({
+            'font-size': '1.0em', 
+            'top': '-14px'
+        });
     }
 }
 

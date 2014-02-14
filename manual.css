@@ -107,11 +107,11 @@
 
 .card-value {
 	position: relative;
-	top: -16px;
+	top: -18px;
 	left: -2px;
 	text-align: center;
 	font-family: 'Shadows Into Light';
-	font-size: 2.1em;
+	font-size: 1.9em;
 }
 
 .card-name {
