@@ -1,0 +1,40 @@
+body {
+  padding: 0.1in;
+}
+
+.paper {
+  width: 8.3in;
+  height: 12.0in;
+  margin-bottom: 1.0in;
+  border: 1px solid rgba(0,0,0,0.2);
+}
+
+.paper .cards {
+  width: 88%;
+  padding-top: 0.5in;
+  margin: 0 auto;
+}
+
+.paper .card {
+  border-style: dashed;
+  width: 2.36in;
+  height: 3.55in;
+  float: left;
+}
+
+.paper .card-value {
+  top: -8px;
+
+  -webkit-transform: scale(2.2,2.2);
+}
+
+.paper .card-name {
+  margin-left: 97px;
+  margin-top: 47px;
+
+  -webkit-transform: scale(2.2,2.2);
+     -moz-transform: scale(2.2,2.2);
+      -ms-transform: scale(2.2,2.2);
+       -o-transform: scale(2.2,2.2);
+          transform: scale(2.2,2.2);
+}

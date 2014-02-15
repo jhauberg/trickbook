@@ -1,3 +1,7 @@
+a {
+  color: rgb(95, 49, 49);
+}
+
 #manual {
   position: relative;
   overflow: visible;
@@ -11,7 +15,7 @@
 #logo-container {
   width: 81%;
   margin: 0 auto;
-  margin-bottom: 72px;
+  margin-bottom: 54px;
 }
 
 #logo {
@@ -24,8 +28,8 @@
 #info {
   position: relative;
   float: left;
-  left: -200px;
-  top: 300px;
+  left: -184px;
+  top: 320px;
   text-align: right;
 }
 
@@ -35,23 +39,34 @@
   font-size: 2.2em;
 }
 
+#actions {
+  font-family: 'Annie Use Your Telescope', cursive;
+  font-weight: lighter;
+  font-size: 2.0em;
+}
+
 #signature {
   font-family: 'Annie Use Your Telescope', cursive;
   font-size: 3.4em;
   font-weight: normal;
 }
 
+#print {
+  /*text-decoration: none;
+  border-bottom: 3px dashed;*/
+}
+
+#challenge {
+  /*text-decoration: none;*/
+  /*font-size: 0.9em;*/
+  /*
+  position: relative;
+  top: -10px;*/
+}
+
 #requirements {
   width: 81%;
   margin: 0 auto;
-}
-
-#tricks {
-  /*overflow: hidden;*/
-}
-
-#specials {
-  /*overflow: hidden;*/
 }
 
 #tricks .card {
