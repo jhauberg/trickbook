@@ -1,169 +1,170 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <meta name="description" content="A game of S.K.A.T.E. for rainy days.">
-        <meta name="keywords" content="trickbook, trickbook game, s.k.a.t.e, s.k.a.t.e., skateboard, skateboarding, card, cards, card game, game">
-        <meta name="author" content="Jacob Hauberg Hansen">
-        <meta name="viewport" content="width=device-width">
+  <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <meta name="description" content="A game of S.K.A.T.E. for rainy days.">
+      <meta name="keywords" content="trickbook, trickbook game, s.k.a.t.e, s.k.a.t.e., skateboard, skateboarding, card, cards, card game, game">
+      <meta name="author" content="Jacob Hauberg Hansen">
+      <meta name="viewport" content="width=device-width">
 
-        <title>Trickbook</title>
+      <title>Trickbook</title>
 
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600|Open+Sans+Condensed:300,700|Shadows+Into+Light|Annie+Use+Your+Telescope" type="text/css">
-        <link rel="stylesheet" href="manual.css" type="text/css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,600|Open+Sans+Condensed:300,700|Shadows+Into+Light|Annie+Use+Your+Telescope" type="text/css">
+      <link rel="stylesheet" href="cards.css" type="text/css">
+      <link rel="stylesheet" href="manual.css" type="text/css">
 
-        <script type="text/javascript" src="jquery-1.10.2.min.js"></script>
-    </head>
-    <body>
-        <div id="manual">
-          <div id="logo-container">
-            <a href="https://github.com/jhauberg/trickbook"><img id="logo" src="images/trickbook.png"></a>
-          </div>
+      <script type="text/javascript" src="dependencies/jquery-1.10.2.min.js"></script>
+  </head>
+  <body>
+    <div id="manual">
+      <div id="logo-container">
+        <a href="https://github.com/jhauberg/trickbook"><img id="logo" src="images/trickbook.png"></a>
+      </div>
 
-          <div id="requirements">
-            <div id="tricks">
-              <div class="card-requirement">
-                <div class="card" id="trick-ollie">
-                  <div class="card-inner-frame">
-                    <div class="card-inner-frame-title-block"></div>
-                    <div class="card-value">2</div>
-                  </div>
-                  <div class="card-name">OLLIE</div>
-                </div>
-                <div class="card-requirement-amount">3x</div>
+      <div id="requirements">
+        <div id="tricks">
+          <div class="card-requirement">
+            <div class="card" id="trick-ollie">
+              <div class="card-inner-frame">
+                <div class="card-inner-frame-title-block"></div>
+                <div class="card-value">2</div>
               </div>
-              <div class="card-requirement">
-                <div class="card" id="trick-shuvit">
-                  <div class="card-inner-frame">
-                    <div class="card-inner-frame-title-block"></div>
-                    <div class="card-value">2</div>
-                  </div>
-                  <div class="card-name">POP SHUV-IT</div>
-                </div>
-                <div class="card-requirement-amount">3x</div>
-              </div>
-              <div class="card-requirement">
-                <div class="card" id="trick-kickflip">
-                  <div class="card-inner-frame">
-                    <div class="card-inner-frame-title-block"></div>
-                    <div class="card-value">3</div>
-                  </div>
-                  <div class="card-name">KICKFLIP</div>
-                </div>
-                <div class="card-requirement-amount">2x</div>
-              </div>
-              <div class="card-requirement">
-                <div class="card" id="trick-heelflip">
-                  <div class="card-inner-frame">
-                    <div class="card-inner-frame-title-block"></div>
-                    <div class="card-value">3</div>
-                  </div>
-                  <div class="card-name">HEELFLIP</div>
-                </div>
-                <div class="card-requirement-amount">1x</div>
-              </div>
-              <div class="card-requirement">
-                <div class="card" id="trick-impossible">
-                  <div class="card-inner-frame">
-                    <div class="card-inner-frame-title-block"></div>
-                    <div class="card-value">4</div>
-                  </div>
-                  <div class="card-name">IMPOSSIBLE</div>
-                </div>
-                <div class="card-requirement-amount">2x</div>
-              </div>
-              <div class="card-requirement">
-                <div class="card" id="trick-tre">
-                  <div class="card-inner-frame">
-                    <div class="card-inner-frame-title-block"></div>
-                    <div class="card-value">5</div>
-                  </div>
-                  <div class="card-name">TRE FLIP</div>
-                </div>
-                <div class="card-requirement-amount">2x</div>
-              </div>
-              <div class="card-requirement">
-                <div class="card" id="trick-hardflip">
-                  <div class="card-inner-frame">
-                    <div class="card-inner-frame-title-block"></div>
-                    <div class="card-value">6</div>
-                  </div>
-                  <div class="card-name">HARDFLIP</div>
-                </div>
-                <div class="card-requirement-amount">1x</div>
-              </div>
+              <div class="card-name">OLLIE</div>
             </div>
-            <div id="specials">
-              <div class="card-requirement" id="requirement-special-psyche">
-                <div class="card">
-                  <div class="card-inner-frame">
-                    <div class="card-inner-frame-title-block"></div>
-                    <div class="card-value">*</div>
-                  </div>
-                  <div class="card-name">PSYCHE!</div>
-                </div>
-                <div class="card-requirement-amount">2x</div>
+            <div class="card-requirement-amount">3x</div>
+          </div>
+          <div class="card-requirement">
+            <div class="card" id="trick-shuvit">
+              <div class="card-inner-frame">
+                <div class="card-inner-frame-title-block"></div>
+                <div class="card-value">2</div>
               </div>
-              <div class="card-requirement" id="requirement-special-focus">
-                <div class="card">
-                  <div class="card-inner-frame">
-                  </div>
-                  <div class="card-name">FOCUS!</div>
-                </div>
-                <div class="card-requirement-amount">2x</div>
-              </div>
-              <div class="card-requirement" id="requirement-special-steal">
-                <div class="card">
-                  <div class="card-inner-frame">
-                    <div class="card-inner-frame-title-block"></div>
-                    <div class="card-value">4</div>
-                  </div>
-                  <div class="card-name">STEAL TURN!</div>
-                </div>
-                <div class="card-requirement-amount">1x</div>
-              </div>
-              <div class="card-requirement" id="requirement-special-first">
-                <div class="card">
-                  <div class="card-inner-frame">
-                  </div>
-                  <div class="card-name">FIRST TRY!</div>
-                </div>
-                <div class="card-requirement-amount">1x</div>
-              </div>
-              <div class="card-requirement" id="requirement-special-onemore">
-                <div class="card">
-                  <div class="card-inner-frame">
-                  </div>
-                  <div class="card-name">ONE MORE!</div>
-                </div>
-                <div class="card-requirement-amount">1x</div>
-              </div>
+              <div class="card-name">POP SHUV-IT</div>
             </div>
+            <div class="card-requirement-amount">3x</div>
           </div>
-          <div id="explanations">
-            <div class="explanation" id="explanation-psyche">Psyche out your opponent by rolling a die that they must match immediately, or become pysched out, adding <strong>-1</strong> to their next roll.</div>
-            <div class="explanation" id="explanation-focus">Focus all your energy and add <strong>+1</strong> to your next roll.</div>
-            <div class="explanation" id="explanation-steal">Take back the turn. If successful, you get the turn, and all played cards are discarded.</div>
-            <div class="explanation" id="explanation-first">Your next trick will land. Play any trick without throwing a die.</div>
-            <div class="explanation" id="explanation-onemore">If you just failed a trick, try again.</div>
+          <div class="card-requirement">
+            <div class="card" id="trick-kickflip">
+              <div class="card-inner-frame">
+                <div class="card-inner-frame-title-block"></div>
+                <div class="card-value">3</div>
+              </div>
+              <div class="card-name">KICKFLIP</div>
+            </div>
+            <div class="card-requirement-amount">2x</div>
           </div>
-          <div id="info">
-            <div id="description">Check back soon. There's more!</div>
-            <div id="signature">J.</div>
+          <div class="card-requirement">
+            <div class="card" id="trick-heelflip">
+              <div class="card-inner-frame">
+                <div class="card-inner-frame-title-block"></div>
+                <div class="card-value">3</div>
+              </div>
+              <div class="card-name">HEELFLIP</div>
+            </div>
+            <div class="card-requirement-amount">1x</div>
+          </div>
+          <div class="card-requirement">
+            <div class="card" id="trick-impossible">
+              <div class="card-inner-frame">
+                <div class="card-inner-frame-title-block"></div>
+                <div class="card-value">4</div>
+              </div>
+              <div class="card-name">IMPOSSIBLE</div>
+            </div>
+            <div class="card-requirement-amount">2x</div>
+          </div>
+          <div class="card-requirement">
+            <div class="card" id="trick-tre">
+              <div class="card-inner-frame">
+                <div class="card-inner-frame-title-block"></div>
+                <div class="card-value">5</div>
+              </div>
+              <div class="card-name">TRE FLIP</div>
+            </div>
+            <div class="card-requirement-amount">2x</div>
+          </div>
+          <div class="card-requirement">
+            <div class="card" id="trick-hardflip">
+              <div class="card-inner-frame">
+                <div class="card-inner-frame-title-block"></div>
+                <div class="card-value">6</div>
+              </div>
+              <div class="card-name">HARDFLIP</div>
+            </div>
+            <div class="card-requirement-amount">1x</div>
           </div>
         </div>
+        <div id="specials">
+          <div class="card-requirement" id="requirement-special-psyche">
+            <div class="card">
+              <div class="card-inner-frame">
+                <div class="card-inner-frame-title-block"></div>
+                <div class="card-value">*</div>
+              </div>
+              <div class="card-name">PSYCHE!</div>
+            </div>
+            <div class="card-requirement-amount">2x</div>
+          </div>
+          <div class="card-requirement" id="requirement-special-focus">
+            <div class="card">
+              <div class="card-inner-frame">
+              </div>
+              <div class="card-name">FOCUS!</div>
+            </div>
+            <div class="card-requirement-amount">2x</div>
+          </div>
+          <div class="card-requirement" id="requirement-special-steal">
+            <div class="card">
+              <div class="card-inner-frame">
+                <div class="card-inner-frame-title-block"></div>
+                <div class="card-value">4</div>
+              </div>
+              <div class="card-name">STEAL TURN!</div>
+            </div>
+            <div class="card-requirement-amount">1x</div>
+          </div>
+          <div class="card-requirement" id="requirement-special-first">
+            <div class="card">
+              <div class="card-inner-frame">
+              </div>
+              <div class="card-name">FIRST TRY!</div>
+            </div>
+            <div class="card-requirement-amount">1x</div>
+          </div>
+          <div class="card-requirement" id="requirement-special-onemore">
+            <div class="card">
+              <div class="card-inner-frame">
+              </div>
+              <div class="card-name">ONE MORE!</div>
+            </div>
+            <div class="card-requirement-amount">1x</div>
+          </div>
+        </div>
+      </div>
+      <div id="explanations">
+        <div class="explanation" id="explanation-psyche">Psyche out your opponent by rolling a die that they must match immediately, or become pysched out, adding <strong>-1</strong> to their next roll.</div>
+        <div class="explanation" id="explanation-focus">Focus all your energy and add <strong>+1</strong> to your next roll.</div>
+        <div class="explanation" id="explanation-steal">Take back the turn. If successful, you get the turn, and all played cards are discarded.</div>
+        <div class="explanation" id="explanation-first">Your next trick will land. Play any trick without throwing a die.</div>
+        <div class="explanation" id="explanation-onemore">If you just failed a trick, try again.</div>
+      </div>
+      <div id="info">
+        <div id="description">Check back soon. There's more!</div>
+        <div id="signature">J.</div>
+      </div>
+    </div>
 
-        <script type="text/javascript" src="manual.js"></script>
+    <script type="text/javascript" src="manual.js"></script>
 
-        <script>
-          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-          ga('create', 'UA-47889531-1', 'trickbookgame.com');
-          ga('send', 'pageview');
-        </script>
-    </body>
+      ga('create', 'UA-47889531-1', 'trickbookgame.com');
+      ga('send', 'pageview');
+    </script>
+  </body>
 </html>
