@@ -49,19 +49,7 @@ a {
   font-family: 'Annie Use Your Telescope', cursive;
   font-size: 3.4em;
   font-weight: normal;
-}
-
-#print {
-  /*text-decoration: none;
-  border-bottom: 3px dashed;*/
-}
-
-#challenge {
-  /*text-decoration: none;*/
-  /*font-size: 0.9em;*/
-  /*
-  position: relative;
-  top: -10px;*/
+  margin-top: 16px;
 }
 
 #requirements {
@@ -234,11 +222,11 @@ only screen and (                min-resolution: 2dppx) {
 
 #trick-heelflip.zoom {
   z-index: 1;
-  -webkit-transform: scale(2,2) rotate(5deg);
-     -moz-transform: scale(2,2) rotate(5deg);
-      -ms-transform: scale(2,2) rotate(5deg);
-       -o-transform: scale(2,2) rotate(5deg);
-          transform: scale(2,2) rotate(5deg);
+  -webkit-transform: scale(2,2) rotate(-5deg);
+     -moz-transform: scale(2,2) rotate(-5deg);
+      -ms-transform: scale(2,2) rotate(-5deg);
+       -o-transform: scale(2,2) rotate(-5deg);
+          transform: scale(2,2) rotate(-5deg);
   transition: 0.2s ease;
 }
 

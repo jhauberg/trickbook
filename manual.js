@@ -82,7 +82,6 @@ function zoomOnCard(card) {
                 'font-size': '1.9em', 
                 'top': '-18px'
             });
-            $(this).find('.card-graphic').css('visibility', 'hidden');
         }
     });
 
@@ -96,15 +95,9 @@ function zoomOnCard(card) {
             'font-size': '1.0em', 
             'top': '-14px'
         });
-
-        $(card).find('.card-graphic').css('visibility', 'visible');
-
-        // todo: make slightly bigger, then animate to default scale, ease-in?
     }
 }
 
 $("#tricks .card-requirement").on('touchend mouseenter', function() {
     zoomOnCard($(this).children('.card'));
 });
-
-$('.card-graphic').css('visibility', 'hidden');
