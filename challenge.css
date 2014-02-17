@@ -1,0 +1,95 @@
+#board {
+  overflow: visible;
+  margin: 0 auto;
+  width: 1024px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#player-area {
+	position: absolute;
+	top: 520px;
+}
+
+#enemy-area {
+	position: absolute;
+	top: 80px;
+}
+
+#player-hand {
+
+}
+
+#player-hand .card {
+  float: left;
+  margin-right: -68px;
+}
+
+#player-deck {
+	position: absolute;
+	left: 250px;
+}
+
+#player-deck .card {
+	float: left;
+	margin-right: -150px;
+}
+
+#enemy-deck {
+	position: absolute;
+	left: 275px;
+}
+
+#enemy-deck .card {
+	float: left;
+	margin-right: -150px;
+}
+
+#enemy-hand {
+	
+}
+
+#enemy-hand .card {
+  float: left;
+  margin-right: -52px;
+}
+
+.zoom {
+  z-index: 0;
+  -webkit-transform: translate(-12px, -30px) scale(1.1,1.1) rotate(12deg);
+     -moz-transform: translate(-12px, -30px) scale(1.1,1.1) rotate(12deg);
+      -ms-transform: translate(-12px, -30px) scale(1.1,1.1) rotate(12deg);
+       -o-transform: translate(-12px, -30px) scale(1.1,1.1) rotate(12deg);
+          transform: translate(-12px, -30px) scale(1.1,1.1) rotate(12deg);
+  transition: 0.2s ease;
+}
+
+.normal {
+  z-index: 0;
+  -webkit-transform: scale(1,1);
+     -moz-transform: scale(1,1);
+      -ms-transform: scale(1,1);
+       -o-transform: scale(1,1);
+          transform: scale(1,1);
+  transition: 0.1s ease;
+}
+
+#specials {
+	position: relative;
+	left: 440px;
+	top: 250px;
+}
+
+#specials .card {
+	float: left;
+  margin-right: -150px;
+}
+
+#played-area {
+	position: relative;
+	top: 250px;
+}
+
+#played-area .card {
+	float: left;
+  margin-right: -10px;
+}
