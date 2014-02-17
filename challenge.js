@@ -73,20 +73,6 @@ function deal() {
 
 deal();
 
-/*
- The Computer's Manifest.
-
- Computer never starts.
- Computer will play tricks randomly.
- Computer will always try to match a trick.
- Computer will never use more than 2 specials per turn.
- Computer will use First Try if it can match or play something difficult.
- Computer will use Psyche when something difficult is played.
- Computer will use Focus when it is about to play something difficult.
- Computer will use One More if it is about to lose the turn or gain a letter.
- Computer will use Steal Turn if it is about to lose.
- */
-
 function fidget(element, range, shouldTranslate) {
     var variation = getRandomIntInRange(-range, range);
     var rotation = getRandomBoolean() ? variation : -variation;
