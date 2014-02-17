@@ -1,15 +1,3 @@
-function rotate(object, degrees) {
-    object.css({
-  '-webkit-transform' : 'rotate('+degrees+'deg)',
-     '-moz-transform' : 'rotate('+degrees+'deg)',
-      '-ms-transform' : 'rotate('+degrees+'deg)',
-       '-o-transform' : 'rotate('+degrees+'deg)',
-          'transform' : 'rotate('+degrees+'deg)',
-               'zoom' : 1
-
-    });
-}
-
 function fidget(element, range) {
     var variation = getRandomIntInRange(-range, range);
     var rotation = getRandomBoolean() ? variation : -variation;
