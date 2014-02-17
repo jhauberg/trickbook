@@ -38,3 +38,10 @@ function rotate(object, degrees) {
 
     });
 }
+
+function translate(object, offset) {
+    object.css({
+        'margin-left': offset.x,
+        'margin-top': offset.y
+    });
+}
