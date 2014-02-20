@@ -150,9 +150,9 @@
 }
 
 #specials {
-	position: relative;
-	left: 440px;
-	top: 250px;
+	position: absolute;
+	left: 840px;
+	top: 300px;
 }
 
 #specials .card {
@@ -161,11 +161,16 @@
 }
 
 #played-area {
-	position: relative;
-	top: 250px;
+	position: absolute;
+	top: 300px;
 }
 
 #played-area .card {
 	float: left;
   margin-right: -10px;
+}
+
+#excuse {
+  position: absolute;
+  top: 10px;
 }
