@@ -39,11 +39,12 @@
 .die .eye {
   background-color: black;
   border-radius: 100%;
-  -webkit-transform: scale(0.8,0.8);
-     -moz-transform: scale(1,1);
-      -ms-transform: scale(1,1);
-       -o-transform: scale(1,1);
-          transform: scale(1,1);
+  
+  -webkit-transform: scale(0.7,0.7);
+     -moz-transform: scale(0.7,0.7);
+      -ms-transform: scale(0.7,0.7);
+       -o-transform: scale(0.7,0.7);
+          transform: scale(0.7,0.7);
 }
 
 #player-area {
