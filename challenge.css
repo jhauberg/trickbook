@@ -39,7 +39,7 @@
 .die .eye {
   background-color: black;
   border-radius: 100%;
-  
+
   -webkit-transform: scale(0.7,0.7);
      -moz-transform: scale(0.7,0.7);
       -ms-transform: scale(0.7,0.7);
@@ -105,6 +105,28 @@
   position: absolute;
   top: 38px;
   left: 450px;
+}
+
+.letters {
+  width: 300%;
+  font-family: 'Annie Use Your Telescope', cursive;
+  font-size: 5.0em;
+  font-weight: bolder;
+}
+
+.letter {
+  float: left;
+}
+
+#player-letters {
+  position: absolute;
+  left: 540px;
+}
+
+#enemy-letters {
+  position: absolute;
+  top: 90px;
+  left: 580px;
 }
 
 .zoom {

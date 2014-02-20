@@ -143,6 +143,9 @@ $('#enemy-deck .card').each(function(index) {
     fidget($(this), 2, true);
 });
 
+$('#played-area .card').each(function(index) {
+    fidget($(this), 10, true);
+});
 
 $("#player-hand .card").on('mouseenter', function() {
     zoomOnCard($(this));
@@ -158,4 +161,8 @@ $("#player-hand .card").on('mouseup', function() {
 
 $('.die').each(function(index) {
     fidget($(this), 15);
+});
+
+$('.letter').each(function(index) {
+    fidget($(this), 15, true);
 });
