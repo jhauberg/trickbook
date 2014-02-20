@@ -155,3 +155,7 @@ $("#player-hand .card").on('mouseup', function() {
 		playCard(card);
 	}
 });
+
+$('.die').each(function(index) {
+    fidget($(this), 15);
+});
