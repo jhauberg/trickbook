@@ -6,6 +6,8 @@ This is a **very easy** and **fast-paced** card game that can be played by **2 p
 
 It is suitable for **ages 7+**, and usually does not take more than **10 minutes** for a single game.
 
+[![thumb](https://raw.github.com/jhauberg/trickbook/master/screenshot-thumb.png)](https://raw.github.com/jhauberg/trickbook/master/screenshot.png)
+
 Read the [rules](https://github.com/jhauberg/trickbook-ruleset).
 
 ## License
