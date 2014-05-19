@@ -1,0 +1,101 @@
+a {
+	
+}
+
+.card {
+  position: absolute;
+  width: 283px;
+  height: 396px;
+}
+
+#rules {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-weight: 300;
+  text-align: center;
+  position: relative;
+  top: 460px;
+}
+
+#container {
+	width: 640px;
+	margin: 110px auto;
+}
+
+#board {
+  width: 46%;
+  margin: 0 auto;
+}
+
+#trickbook {
+  background:url('images/trickbook-back.png') no-repeat top left;
+}
+
+#ollie {
+  background:url('images/trickbook-heelflip.png') no-repeat top left;
+}
+
+#shuv-it {
+  background:url('images/trickbook-heelflip.png') no-repeat top left;
+}
+
+#heelflip {
+  background:url('images/trickbook-heelflip.png') no-repeat top left;
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+  #trickbook {
+    background:url('images/trickbook-back@2x.png') no-repeat top left;
+    background-size: 283px 396px;
+  }
+
+  #ollie {
+    background:url('images/trickbook-heelflip@2x.png') no-repeat top left;
+    background-size: 283px 396px;
+  }
+
+  #shuv-it {
+    background:url('images/trickbook-heelflip@2x.png') no-repeat top left;
+    background-size: 283px 396px;
+  }
+
+  #heelflip {
+    background:url('images/trickbook-heelflip@2x.png') no-repeat top left;
+    background-size: 283px 396px;
+  }
+}
+
+.zoom {
+  z-index: 0;
+  -webkit-transform: translate(-120px, 12px) rotate(-10deg);
+     -moz-transform: translate(-120px, 12px) rotate(-10deg);
+      -ms-transform: translate(-120px, 12px) rotate(-10deg);
+       -o-transform: translate(-120px, 12px) rotate(-10deg);
+          transform: translate(-120px, 12px) rotate(-10deg);
+  transition: 0.2s ease;
+}
+
+.zoom-2 {
+  z-index: 0;
+  -webkit-transform: translate(76px, -68px) rotate(8deg);
+     -moz-transform: translate(76px, -68px) rotate(8deg);
+      -ms-transform: translate(76px, -68px) rotate(8deg);
+       -o-transform: translate(76px, -68px) rotate(8deg);
+          transform: translate(76px, -68px) rotate(8deg);
+  transition: 0.2s ease;
+}
+
+.normal {
+  z-index: 0;
+  -webkit-transform: scale(1,1);
+     -moz-transform: scale(1,1);
+      -ms-transform: scale(1,1);
+       -o-transform: scale(1,1);
+          transform: scale(1,1);
+  transition: 0.1s ease;
+}
