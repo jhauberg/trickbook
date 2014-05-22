@@ -17,6 +17,12 @@ function toggleClasses(element, a, b) {
     }
 }
 
+function fidgetWithAllTricks(amount) {
+    $('.trick').each(function(index) {
+        fidget($(this), amount);
+    });
+}
+
 function toggleFanOut(card) {
     var deck = $('#deck');
 
@@ -25,6 +31,12 @@ function toggleFanOut(card) {
 
     toggleClasses(card, 'normal', 'zoom');
     toggleClasses(deck, 'normal', 'zoom-2');
+
+    if (deck.hasClass('zoom-2')) {
+        fidgetWithAllTricks(3);
+    } else {
+        fidgetWithAllTricks(0);
+    }
 }
 
 $("#trickbook").on('touchend mouseenter', function() {
@@ -33,10 +45,6 @@ $("#trickbook").on('touchend mouseenter', function() {
 
 $("#trickbook").on('mouseleave', function() {
     toggleFanOut($(this));
-});
-
-$('.trick').each(function(index) {
-    fidget($(this), 3);
 });
 
 $(window).load(function() {
@@ -48,6 +56,6 @@ $(window).load(function() {
 
         setTimeout(function() {
             $("body").fadeIn(250);
-        }, 100);
+        }, 400);
     }, 100);
 });
