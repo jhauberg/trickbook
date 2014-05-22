@@ -5,31 +5,26 @@ function fidget(element, range) {
     rotate(element, rotation);
 }
 
+function toggleClasses(element, a, b) {
+    if (element.hasClass(a)) {
+        element.removeClass(a);
+        element.addClass(b);
+    } else if (element.hasClass(b)) {
+        element.removeClass(b);
+        element.addClass(a);
+    } else {
+        element.addClass(b);
+    }
+}
+
 function toggleFanOut(card) {
     var deck = $('#deck');
 
     card.attr('style', '');
     deck.attr('style', '');
 
-    if (card.hasClass('normal')) {
-        card.removeClass('normal');
-        card.addClass('zoom');
-    } else if (card.hasClass('zoom')) {
-        card.removeClass('zoom');
-        card.addClass('normal');
-    } else {
-        card.addClass('zoom');
-    }
-
-    if (deck.hasClass('normal')) {
-        deck.removeClass('normal');
-        deck.addClass('zoom-2');
-    } else if (deck.hasClass('zoom-2')) {
-        deck.removeClass('zoom-2');
-        deck.addClass('normal');
-    } else {
-        deck.addClass('zoom-2');
-    }
+    toggleClasses(card, 'normal', 'zoom');
+    toggleClasses(deck, 'normal', 'zoom-2');
 }
 
 $("#trickbook").on('touchend mouseenter', function() {
