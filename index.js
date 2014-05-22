@@ -39,12 +39,12 @@ function toggleFanOut(card) {
     }
 }
 
-$("#trickbook").on('touchend mouseenter', function() {
-    toggleFanOut($(this));
+$("#touch-overlay").on('touchend mouseenter', function() {
+    toggleFanOut($('#trickbook'));
 });
 
-$("#trickbook").on('mouseleave', function() {
-    toggleFanOut($(this));
+$("#touch-overlay").on('mouseleave', function() {
+    toggleFanOut($('#trickbook'));
 });
 
 $(window).load(function() {
