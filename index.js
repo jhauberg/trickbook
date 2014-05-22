@@ -33,7 +33,7 @@ function toggleFanOut(card) {
     toggleClasses(deck, 'normal', 'zoom-2');
 
     if (deck.hasClass('zoom-2')) {
-        fidgetWithAllTricks(3);
+        fidgetWithAllTricks(4);
     } else {
         fidgetWithAllTricks(0);
     }
