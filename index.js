@@ -23,23 +23,23 @@ function fidgetWithAllTricks(amount) {
     });
 }
 
-function toggleFanOut(card) {
+function toggleFanOut(card, out) {
     var deck = $('#deck');
 
     card.attr('style', '');
     deck.attr('style', '');
 
-    toggleClasses(card, 'normal', 'zoom');
-    toggleClasses(deck, 'normal', 'zoom-2');
+    toggleClasses(card, 'normal', 'fan-left');
+    toggleClasses(deck, 'normal', 'fan-right');
 
-    if (deck.hasClass('zoom-2')) {
+    if (deck.hasClass('fan-right')) {
         fidgetWithAllTricks(4);
     } else {
         fidgetWithAllTricks(0);
     }
 }
 
-$("#touch-overlay").on('touchend mouseenter', function() {
+$("#touch-overlay").on('mouseenter', function() {
     toggleFanOut($('#trickbook'));
 });
 

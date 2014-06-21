@@ -79,7 +79,7 @@ only screen and (                min-resolution: 2dppx) {
   }
 }
 
-.zoom {
+.fan-left {
   z-index: 0;
   -webkit-transform: translate(-120px, 12px) rotate(-10deg);
      -moz-transform: translate(-120px, 12px) rotate(-10deg);
@@ -89,7 +89,7 @@ only screen and (                min-resolution: 2dppx) {
   transition: 0.2s ease;
 }
 
-.zoom-2 {
+.fan-right {
   z-index: 0;
   -webkit-transform: translate(76px, -68px) rotate(8deg);
      -moz-transform: translate(76px, -68px) rotate(8deg);
