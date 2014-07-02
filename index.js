@@ -23,7 +23,7 @@ function fidgetWithAllTricks(amount) {
     });
 }
 
-function toggleFanOut(card, out) {
+function toggleFanOut(card, remain) {
     var deck = $('#deck');
 
     card.attr('style', '');
@@ -38,6 +38,10 @@ function toggleFanOut(card, out) {
         fidgetWithAllTricks(0);
     }
 }
+
+$("#touch-overlay").on('click', function() {
+    toggleFanOut($('#trickbook'), true);
+});
 
 $("#touch-overlay").on('mouseenter', function() {
     toggleFanOut($('#trickbook'));
