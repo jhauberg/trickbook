@@ -2,6 +2,10 @@ body {
   display: none;
 }
 
+strong {
+  font-size: 0.95em;
+}
+
 .card {
   position: absolute;
   width: 283px;
@@ -11,9 +15,10 @@ body {
 #rules {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
   font-weight: 300;
+  font-size: 1.0em;
   text-align: center;
   position: relative;
-  top: 460px;
+  top: 440px;
 }
 
 #container {
