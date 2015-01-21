@@ -2,7 +2,7 @@
 
 # Description
 
-This is an **easy** and **fast-paced** card game that can be played by **2 players** (and maybe more...).
+This is an **easy** and **fast-paced** card game that can be played by **2 players**.
 
 It is suitable for **ages 12+**, and usually does not take more than **20 minutes** for a single game.
 
@@ -12,39 +12,38 @@ Print your own copy, or buy one from [here](https://www.thegamecrafter.com/games
 
 ## Requirements
 
-* A deck of 35 trick cards.
+* A deck of 23 trick cards.
 * A deck of 15 special cards.
-* A die per player.
+* A 6-sided die per player.
+* A bunch of letter tokens.
 
 ## Objective
 
-Make your opponents gain all the letters; i.e. S, K, A, T and E.
+Make your opponents receive all the letters; i.e. S, K, A, T and E.
 
 ## Rules
 
+### Set up
+
+All tricks and specials are shuffled and put into a deck each. All the letter tokens are put into a pile next to the decks.
+
+Each player draws 3 cards from the top of the trick deck and 1 from the specials deck. Players do not reveal their hands.
+
 Players determine who gets to start by throwing down in a battle of Rock, Paper or Scissors.
-
-All tricks and specials are shuffled and put into a pile each.
-
-Each player draws 3 cards from the top of the trick deck. Players do not reveal their hands.
 
 ### Setting a trick
 
-At the start of each turn, the player draws 1 card from the top of the trick deck and must put a trick card into play.
+At the start of each turn, if the player has 3 cards or less, he draws cards from the top of the trick deck until he has 4 cards in hand, and must then put a trick card into play.
 
 Once a trick has been played, the player must roll a die and finish with a roll equal to, or higher than, the difficulty of the trick to successfully set it.
 
-If the player does not succeed in setting the trick, the turn is lost and is immediately passed on to the next player, who then tries to set a trick.
-
-When a trick card has been played, it is put into the tricks discard pile. It is discarded even if the player does not set the trick successfully.
-
-If, at any time, the trick deck becomes empty, the discarded tricks are shuffled and becomes the new trick deck.
+If the player does not succeed in setting the trick, the player loses his turn and the turn is immediately passed on to the next player, who then tries to set a trick.
 
 ### Matching it
 
 Once a trick has been set, each opposing player take turns at attempting to match it (by playing the same trick card and rolling a die).
 
-If they don't succeed, they gain a letter.
+If they don't succeed, they receive a letter.
 
 A player might not be able to match the trick with their current hand, but can instead opt for discarding a trick card to get the chance to match it by rolling a die twice. Both rolls must match the difficulty of the played trick to successfully match it.
 
@@ -66,7 +65,7 @@ Certain cards allow players to intervene on another player's turn. These cards c
 
 #### How to get them
 
-Whenever a player rolls a 1 (i.e. the lowest and most unlucky roll of all), they get to draw from the pile of special cards.
+Whenever a player rolls a 1 (i.e. the lowest and most unlucky roll of all), they get to draw a card from the pile of special cards.
 
 #### Playing them
 
@@ -88,7 +87,7 @@ A leap into the air. The most basic of tricks.
 
 ```
 Difficulty: 2
-Amount: 7
+Amount: 4
 ```
 
 #### Shuv-it
@@ -99,7 +98,7 @@ Make the board rotate 180 degrees.
 
 ```
 Difficulty: 2
-Amount: 6
+Amount: 4
 ```
 
 #### Kickflip
@@ -110,7 +109,7 @@ Flip the board around with a flick of the toes.
 
 ```
 Difficulty: 3
-Amount: 6
+Amount: 3
 ```
 
 #### Heelflip
@@ -121,7 +120,7 @@ Flip the board around with a flick of the heel.
 
 ```
 Difficulty: 3
-Amount: 4
+Amount: 3
 ```
 
 #### Impossible
@@ -132,7 +131,7 @@ Make the board flip around vertically by scooping aggressively with the back foo
 
 ```
 Difficulty: 4
-Amount: 5
+Amount: 4
 ```
 
 #### 360 Flip
@@ -144,7 +143,7 @@ This is a very technical trick.
 
 ```
 Difficulty: 5
-Amount: 4
+Amount: 3
 ```
 
 #### Hardflip
@@ -156,7 +155,7 @@ This is a very technical and difficult trick.
 
 ```
 Difficulty: 6
-Amount: 3
+Amount: 2
 ```
 
 ## Specials
@@ -164,8 +163,8 @@ Amount: 3
 #### Psyche!
 
 ```
-Psyche out your opponent by rolling a die that they must match immediately,
-or become pysched out, adding -1 to their next roll.
+Psyche out your opponent by rolling a die that they must match immediately
+or become psyched out, adding -1 to their next roll.
 ```
 
 ```
@@ -176,11 +175,10 @@ Amount: 4
 #### Focus!
 
 ```
-Focus all your energy and add +1 to your next roll.
+Focus all your energy and add +1 to your roll.
 ```
 
 ```
-Difficulty: 0
 Amount: 4
 ```
 
@@ -191,7 +189,6 @@ Your next trick will land. Play any trick without throwing a die.
 ```
 
 ```
-Difficulty: 0
 Amount: 3
 ```
 
@@ -202,7 +199,6 @@ Take back the turn. If successful, you get the turn, and all played cards are di
 ```
 
 ```
-Difficulty: 4
 Amount: 2
 ```
 
@@ -213,7 +209,6 @@ If you just failed a trick, try again.
 ```
 
 ```
-Difficulty: 0
 Amount: 2
 ```
 
