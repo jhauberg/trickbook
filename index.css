@@ -13,16 +13,22 @@ strong {
 }
 
 #rules {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
   font-size: 1.0em;
   text-align: center;
   position: relative;
   top: 440px;
+  width: 250px;
+  margin: 0 auto;
+}
+
+#options {
+  color: gray;
 }
 
 #container {
-	width: 640px;
+	width: 620px;
 	margin: 110px auto;
 }
 
@@ -32,23 +38,30 @@ strong {
 }
 
 #trickbook {
-  background:url('images/trickbook-back.png') no-repeat top left;
+  background: url('images/trickbook-back.png') no-repeat top left;
 }
 
 #ollie {
-  background:url('images/trickbook-heelflip.png') no-repeat top left;
+  background: url('images/trickbook-ollie.png') no-repeat top left;
 }
 
-#shuv-it {
-  background:url('images/trickbook-heelflip.png') no-repeat top left;
+#impossible {
+  background: url('images/trickbook-impossible.png') no-repeat top left;
 }
 
 #heelflip {
-  background:url('images/trickbook-heelflip.png') no-repeat top left;
+  background: url('images/trickbook-heelflip.png') no-repeat top left;
 }
 
 #psyche {
-  background:url('images/trickbook-psyche.png') no-repeat top left;
+  background: url('images/trickbook-psyche.png') no-repeat top left;
+}
+
+#logo {
+  background: url('images/logo.png') no-repeat top left;
+  margin: 0 auto;
+  width: 90px;
+  height: 76px;
 }
 
 @media
@@ -57,19 +70,19 @@ only screen and (   min--moz-device-pixel-ratio: 2),
 only screen and (     -o-min-device-pixel-ratio: 2/1),
 only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
-only screen and (                min-resolution: 2dppx) { 
+only screen and (                min-resolution: 2dppx) {
   #trickbook {
     background: url('images/trickbook-back@2x.png') no-repeat top left;
     background-size: 283px 396px;
   }
 
   #ollie {
-    background: url('images/trickbook-heelflip@2x.png') no-repeat top left;
+    background: url('images/trickbook-ollie@2x.png') no-repeat top left;
     background-size: 283px 396px;
   }
 
-  #shuv-it {
-    background: url('images/trickbook-heelflip@2x.png') no-repeat top left;
+  #impossible {
+    background: url('images/trickbook-impossible@2x.png') no-repeat top left;
     background-size: 283px 396px;
   }
 
@@ -81,6 +94,11 @@ only screen and (                min-resolution: 2dppx) {
   #psyche {
     background: url('images/trickbook-psyche@2x.png') no-repeat top left;
     background-size: 283px 396px;
+  }
+
+  #logo {
+    background: url('images/logo@2x.png') no-repeat top left;
+    background-size: 90px 76px;
   }
 }
 
