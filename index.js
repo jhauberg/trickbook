@@ -55,11 +55,5 @@ $(window).load(function() {
     // run the fan out/in animations initially (while hidden) to avoid artifacts
     toggleFanOut($('#trickbook'));
 
-    setTimeout(function() {
-        toggleFanOut($('#trickbook'));
-
-        setTimeout(function() {
-            $("body").fadeIn(250);
-        }, 400);
-    }, 100);
+    $("body").fadeIn(250);
 });
