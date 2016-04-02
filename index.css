@@ -12,6 +12,18 @@ strong {
   height: 396px;
 }
 
+.card-back {
+  background: url('images/trickbook-back.png') no-repeat top left;
+}
+
+.card-trick {
+  background: url('images/trickbook-heelflip.png') no-repeat top left;
+}
+
+.card-action {
+  background: url('images/trickbook-psyche.png') no-repeat top left;
+}
+
 #rules {
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
   font-weight: 300;
@@ -37,26 +49,6 @@ strong {
   margin: 0 auto;
 }
 
-#trickbook {
-  background: url('images/trickbook-back.png') no-repeat top left;
-}
-
-#ollie {
-  background: url('images/trickbook-ollie.png') no-repeat top left;
-}
-
-#impossible {
-  background: url('images/trickbook-impossible.png') no-repeat top left;
-}
-
-#heelflip {
-  background: url('images/trickbook-heelflip.png') no-repeat top left;
-}
-
-#psyche {
-  background: url('images/trickbook-psyche.png') no-repeat top left;
-}
-
 #logo {
   background: url('images/logo.png') no-repeat top left;
   margin: 0 auto;
@@ -71,27 +63,17 @@ only screen and (     -o-min-device-pixel-ratio: 2/1),
 only screen and (        min-device-pixel-ratio: 2),
 only screen and (                min-resolution: 192dpi),
 only screen and (                min-resolution: 2dppx) {
-  #trickbook {
+  .card-back {
     background: url('images/trickbook-back@2x.png') no-repeat top left;
     background-size: 283px 396px;
   }
 
-  #ollie {
-    background: url('images/trickbook-ollie@2x.png') no-repeat top left;
-    background-size: 283px 396px;
-  }
-
-  #impossible {
-    background: url('images/trickbook-impossible@2x.png') no-repeat top left;
-    background-size: 283px 396px;
-  }
-
-  #heelflip {
+  .card-trick {
     background: url('images/trickbook-heelflip@2x.png') no-repeat top left;
     background-size: 283px 396px;
   }
 
-  #psyche {
+  .card-action {
     background: url('images/trickbook-psyche@2x.png') no-repeat top left;
     background-size: 283px 396px;
   }

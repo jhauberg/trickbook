@@ -18,7 +18,7 @@ function toggleClasses(element, a, b) {
 }
 
 function fidgetWithAllTricks(amount) {
-    $('.trick').each(function(index) {
+    $('#deck .card').each(function(index) {
         fidget($(this), amount);
     });
 }
