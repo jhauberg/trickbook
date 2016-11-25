@@ -1,0 +1,2 @@
+@count,@template,@template-back,image
+1,"templates/card.html","templates/leader-back.html","{{ images/card-leader-front.png copy-only }}"

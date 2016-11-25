@@ -1,6 +1,7 @@
 @count,@template:token,letter
-5,"templates/letter.html","S"
-5,"templates/letter.html","K"
-5,"templates/letter.html","A"
-5,"templates/letter.html","T"
-5,"templates/letter.html","E"
+~,"templates/letter.html","-"
+5,"^","S"
+5,"^","K"
+5,"^","A"
+5,"^","T"
+5,"^","E"
