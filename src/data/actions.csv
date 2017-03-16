@@ -1,9 +1,9 @@
 @count,@template,@template-back,image@front-only
-~,"../templates/card.html","../templates/action-back.html",~
-4,^,^,"{{ ../images/card-action-front-1-focus.png copy-only }}"
-4,^,^,"{{ ../images/card-action-front-2-psyche.png copy-only }}"
-2,^,^,"{{ ../images/card-action-front-3-first-try.png copy-only }}"
-3,^,^,"{{ ../images/card-action-front-4-one-more.png copy-only }}"
-2,^,^,"{{ ../images/card-action-front-5-steal-turn.png copy-only }}"
-3,^,^,"{{ ../images/card-action-front-6-enter-the-zone.png copy-only }}"
-2,^,^,"{{ ../images/card-action-front-7-psyche-out.png copy-only }}"
+~,"../templates/cards/card.html","../templates/cards/action-back.html",~
+4,^,^,"{{ ../images/cards/action-front-1-focus.png copy-only }}"
+4,^,^,"{{ ../images/cards/action-front-2-psyche.png copy-only }}"
+2,^,^,"{{ ../images/cards/action-front-3-first-try.png copy-only }}"
+3,^,^,"{{ ../images/cards/action-front-4-one-more.png copy-only }}"
+2,^,^,"{{ ../images/cards/action-front-5-steal-turn.png copy-only }}"
+3,^,^,"{{ ../images/cards/action-front-6-enter-the-zone.png copy-only }}"
+2,^,^,"{{ ../images/cards/action-front-7-psyche-out.png copy-only }}"

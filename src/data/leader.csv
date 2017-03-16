@@ -1,2 +1,2 @@
 @count,@template,@template-back,image@front-only
-1,"../templates/card.html","../templates/leader-back.html","{{ ../images/card-leader-front.png copy-only }}"
+1,"../templates/cards/card.html","../templates/cards/leader-back.html","{{ ../images/cards/leader-front.png copy-only }}"

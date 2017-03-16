@@ -1,11 +1,11 @@
 @count,@template,@template-back,image@front-only
-~,"../templates/card.html","../templates/trick-back.html",~
-3,^,^,"{{ ../images/card-trick-front-2-ollie.png copy-only }}"
-2,^,^,"{{ ../images/card-trick-front-2-ollie-alternate.png copy-only }}"
-5,^,^,"{{ ../images/card-trick-front-2-shuv-it.png copy-only }}"
-2,^,^,"{{ ../images/card-trick-front-3-kickflip.png copy-only }}"
-2,^,^,"{{ ../images/card-trick-front-3-kickflip-alternate.png copy-only }}"
-4,^,^,"{{ ../images/card-trick-front-3-heelflip.png copy-only }}"
-5,^,^,"{{ ../images/card-trick-front-4-impossible.png copy-only }}"
-4,^,^,"{{ ../images/card-trick-front-5-360-flip.png copy-only }}"
-3,^,^,"{{ ../images/card-trick-front-6-hardflip.png copy-only }}"
+~,"../templates/cards/card.html","../templates/cards/trick-back.html",~
+3,^,^,"{{ ../images/cards/trick-front-2-ollie.png copy-only }}"
+2,^,^,"{{ ../images/cards/trick-front-2-ollie-alternate.png copy-only }}"
+5,^,^,"{{ ../images/cards/trick-front-2-shuv-it.png copy-only }}"
+2,^,^,"{{ ../images/cards/trick-front-3-kickflip.png copy-only }}"
+2,^,^,"{{ ../images/cards/trick-front-3-kickflip-alternate.png copy-only }}"
+4,^,^,"{{ ../images/cards/trick-front-3-heelflip.png copy-only }}"
+5,^,^,"{{ ../images/cards/trick-front-4-impossible.png copy-only }}"
+4,^,^,"{{ ../images/cards/trick-front-5-360-flip.png copy-only }}"
+3,^,^,"{{ ../images/cards/trick-front-6-hardflip.png copy-only }}"
