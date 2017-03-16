@@ -1,0 +1,7 @@
+@count,@template:token,@template-back,image
+~,"../templates/letter.html","../templates/letter.html",~
+5,^,^,"{{ ../images/tokens/letter-s.png copy-only }}"
+5,^,^,"{{ ../images/tokens/letter-k.png copy-only }}"
+5,^,^,"{{ ../images/tokens/letter-a.png copy-only }}"
+5,^,^,"{{ ../images/tokens/letter-t.png copy-only }}"
+5,^,^,"{{ ../images/tokens/letter-e.png copy-only }}"
