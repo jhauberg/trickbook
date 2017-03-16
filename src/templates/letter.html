@@ -1,32 +1,14 @@
 <style type="text/css">
   .trickbook-token {
-    /* to achieve vertically middle aligned text */
-    display: table;
-
     width: 100%;
     height: 100%;
 
-    background-color: black;
-
-    border-radius: 50%;
-  }
-
-  .trickbook-letter {
-    /* to achieve vertically middle aligned text */
-    display: table-cell;
-
-    vertical-align: middle;
-    text-align: center;
-
-    color: white;
-
-    font-size: 24pt;
-    font-family: FISHFingers, sans-serif;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
   }
 </style>
 
-<div class="trickbook-token">
-  <div class="trickbook-letter">
-    {{ letter }}
-  </div>
+<div class="trickbook-token" style="background-image: url({{ image }});">
+  <!-- no content -->
 </div>
